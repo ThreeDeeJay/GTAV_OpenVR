@@ -110,7 +110,7 @@
       <AdditionalLibraryDirectories>$(SolutionDir)\ThirdParty\</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>copy "C:\dev\GTAVOVR\x64\Debug\OVRInject.dll" "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\OVRInject.dll"</Command>
+      <Command>REM copy "C:\dev\GTAVOVR\x64\Debug\OVRInject.dll" "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\OVRInject.dll"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -150,7 +150,7 @@
       <AdditionalLibraryDirectories>$(SolutionDir)\ThirdParty\</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>copy "C:\dev\GTAVOVR\x64\Release\OVRInject.dll" "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\OVRInject.dll"</Command>
+      <Command>REM copy "C:\dev\GTAVOVR\x64\Release\OVRInject.dll" "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\OVRInject.dll"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
